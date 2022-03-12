@@ -1,0 +1,33 @@
+
+
+.featured--horizontal{
+    background: linear-gradient(to right, rgb(194, 156, 156) 30%, transparent 80%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+    
+}
+
+.featured--icon{
+    font-size: 40px;
+    font-weight: bold;
+    width: 20vh;
+    text-align: center;
+}
+
+.featured--text, .featured--contact {
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.featured--contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.featured--contact-phone, .featured--contact-face{
+    padding-top: 1vh;
+}

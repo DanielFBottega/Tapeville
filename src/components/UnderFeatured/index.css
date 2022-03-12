@@ -1,0 +1,13 @@
+.underfeat{
+    margin-top: 0;
+    font-size: 30px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.555)5%, rgb(255, 255, 255), hsla(0, 0%, 0%, 0.555));
+
+}
+
+
+.underfeat--info1, .underfeat--info2, .underfeat--info3{
+border:solid;
+border-radius: 12px;
+padding: 5px;
+}
