@@ -12,7 +12,16 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.underfeat{
-  display: flex;
-  justify-content: space-evenly;
+.middle--block{
+columns: 2;
+margin: auto;
+}
+
+.map{
+  width: 50%;
+  border: solid 1px;
+}
+
+.carrousel{
+  background-color: rgb(194, 156, 156);
 }

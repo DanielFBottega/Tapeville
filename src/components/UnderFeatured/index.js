@@ -1,30 +1,41 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './index.css'
-import { faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
+import { faHandHoldingDollar, faLightbulb, faThumbsUp  } from '@fortawesome/free-solid-svg-icons'
 
 
-export default () =>{
+export default () => {
 
 
-    return(
+    return (
 
         <section className="underfeat">
+            <div className="underfeat--icons">
+                <div className="underfeat--icon1">
+                    <FontAwesomeIcon icon={faHandHoldingDollar} size="2x" />
 
-        <div className="underfeat--info1">
-            <FontAwesomeIcon icon={faHandHoldingDollar} size="2x"/>
-            ALOHA
-        </div>
+                </div>
+                <div className="underfeat--icon2">
+                <FontAwesomeIcon icon={faLightbulb} size="2x" />
+                </div>
 
-        <div className="underfeat--info2">
-            Que
-        </div>
-
-        <div className="underfeat--info3">
-            Delicia
-        </div>
-
+                <div className="underfeat--icon3">
+                <FontAwesomeIcon icon={faThumbsUp} size="2x" />
+                </div>
+            </div>
+            <div className="underfeat--text">
+            <p className="text1" >
+                    Custo Benefício
+                </p>
+                <p className="text2">
+                    Peça do seu Jeito
+                </p>
+                <p className="text3">
+                    Garantia de Qualidade
+                </p>
+            </div>
         </section>
+
 
     )
 }

@@ -1,0 +1,31 @@
+.slides--info{
+    columns: 2;
+
+}
+
+
+
+
+.text{
+    font-size: 40px;
+}
+
+.slides{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 300px;
+    height: 600px;
+    
+}
+
+.movieRow--left, .movieRow--rigth{
+    position: absolute;
+    padding-top: 10%;
+}
+
+
+
+#slide1 img, #slide2 img, #slide3 img{
+    height: 600px;
+    
+}

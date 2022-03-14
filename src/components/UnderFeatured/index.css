@@ -1,13 +1,42 @@
-.underfeat{
-    margin-top: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.underfeat--icons{
+columns: 3;
+column-rule: inset 1px;
+text-align: center;
+
+
+}
+
+
+.underfeat--icon1, .underfeat--icon2, .underfeat--icon3{
+    font-size: 40px;
+    height:120px;
+    width: 120px; 
+    border: solid 1px;
+    border-radius: 50%;
+    padding-top: 10px;
+    transform: scale(0.9);
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
+.underfeat--icon1:hover, .underfeat--icon2:hover, .underfeat--icon3:hover{
+    background: linear-gradient(to right, rgb(194, 156, 156) 60%, transparent 100%);
+    transform: scale(1);
+   
+   }
+   
+
+
+.underfeat--text{
+    font-family: 'Bebas Neue', cursive;
+    columns: 3;
     font-size: 30px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.555)5%, rgb(255, 255, 255), hsla(0, 0%, 0%, 0.555));
-
+    text-align: center;
 }
 
-
-.underfeat--info1, .underfeat--info2, .underfeat--info3{
-border:solid;
-border-radius: 12px;
-padding: 5px;
+.text1, .text2, .text3{
+    margin: 0;
 }
+
